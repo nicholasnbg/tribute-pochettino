@@ -10,3 +10,7 @@
   height:100%;
   width: 100%;
 }
+ .main .row:nth-child(odd){
+   background: #142D5A;
+   color: white;
+ }
