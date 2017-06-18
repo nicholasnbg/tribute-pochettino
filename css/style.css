@@ -2,15 +2,39 @@
   margin: auto;
 }
 
+body {
+  font-family:'Open-sans', sans-serif;
+  font-size:17px;
+  line-height:1.5em;
+}
 .period {
-  height:350px;
+  height:auto;
+  padding:15px;
+  border-radius: .5em;
 }
 
 .period-pic {
-  height:100%;
-  width: 100%;
+  height:80%;
+  width: 80%;
+  border-radius: 1.5em;
+}
+
+.main .row:nth-child(even) .period-pic{
+  border: 3px solid #142D5A;
+}
+
+.image-col{
+  margin: auto;
 }
  .main .row:nth-child(odd){
    background: #142D5A;
    color: white;
  }
+
+.row ul li {
+  padding: 5px;
+}
+
+h1 {
+  font-family: Impact, Charcoal, sans-serif;
+}
