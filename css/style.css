@@ -23,6 +23,10 @@ body {
   border: 3px solid #142D5A;
 }
 
+.main .row:nth-child(odd) .period-pic{
+  border: 3px solid white;
+}
+
 .image-col{
   margin: auto;
 }
